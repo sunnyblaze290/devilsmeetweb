@@ -5,23 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Devils Meet App</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome for Instagram icon -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
   </head>
   <body class="bg-black text-white font-sans">
-    <!-- TOP BAR (White Background) -->
+    <!-- TOP BAR WITH LOGO ONLY -->
     <header class="w-full bg-white shadow-md py-6 text-center z-50">
-      <div class="flex justify-center items-center gap-4">
-        <img src="logo.png" alt="Devils Meet Logo" class="h-12 md:h-16" />
-        <h1 class="text-4xl md:text-5xl font-bold text-red-600">Devils Meet</h1>
+      <div class="flex justify-center items-center">
+        <img src="logo.png" alt="Devils Meet Logo" class="h-24 md:h-32" />
       </div>
     </header>
 
-    <!-- CTA Button -->
+    <!-- CTA BUTTON -->
     <div class="w-full flex justify-center mt-6">
       <a
         href="https://www.instagram.com/devils.meet/"
         target="_blank"
-        class="bg-white text-black font-semibold py-3 px-6 rounded-2xl hover:bg-red-600 hover:text-white transition"
+        class="flex items-center gap-3 bg-white text-black font-semibold py-3 px-6 rounded-2xl hover:bg-red-600 hover:text-white transition"
       >
+        <i class="fab fa-instagram text-xl"></i>
         Follow us on Instagram
       </a>
     </div>
